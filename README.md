@@ -67,7 +67,7 @@ SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-
   Your browser does not support the video tag.
 </video>
 
-### if video doesn't work, try this link https://youtu.be/2OFljDC_c74
+### if video doesn't load or work, try this link https://youtu.be/2OFljDC_c74
 
 # Contributing
 
