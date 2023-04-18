@@ -41,24 +41,25 @@ SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-
 <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
 
 <figure style="display: flex; flex-direction: column; align-items: center;">
+
   <img src="./screenshots/signin.PNG" alt="Description of the screenshot" width="200px">
-  <figcaption><i>Signin</i></figcaption>
+ 
 </figure>
 <figure style="display: flex; flex-direction: column; align-items: center;">
+
   <img src="./screenshots/home.PNG" alt="Description of the screenshot" width="200px">
-  <figcaption><i>Home</i></figcaption>
+  
 </figure><figure style="display: flex; flex-direction: column; align-items: center;">
+
   <img src="./screenshots/social_media.PNG" alt="Description of the screenshot" width="200px">
-  <figcaption><i>Social Media</i></figcaption>
+  
 </figure><figure style="display: flex; flex-direction: column; align-items: center;">
+
   <img src="./screenshots/start_workout_card.PNG" alt="Description of the screenshot" width="200px">
-  <figcaption><i>Start Workout</i></figcaption>
 </figure>
 </div>
 
 ### **More screenshots available on the ./screenshots directory or visit https://paulsimbulan.com**
-
-<br /><br />
 
 # Video Demo
 <video width="600px" controls>
@@ -67,12 +68,10 @@ SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-
 </video>
 
 ### if video doesn't work, try this link https://youtu.be/2OFljDC_c74
-<br /><br />
 
 # Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or create issues to report bugs or suggest improvements.
-<br /><br />
 
 # License
 This project is open-source and available under the MIT License.
