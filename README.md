@@ -23,6 +23,53 @@ SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-
 1. Clone this repository
 2. Set githooks with `git config core.hooksPath ./.githooks`
 3. Navigate to the root of the repository and run `yarn` to install all dependencies
+4. Initialize your Supabase account. (https://supabase.com/)
+5. Setup Supabase database by creating a file `environment.ts` and copy your very own `SupabaseURL key` and `SupabaseAnonKey` and paste it in this file 
+
+```
+/*****************************
+ * environment.js
+ * path: '/environment.js' (root of your project)
+ ******************************/
+
+import Constants from 'expo-constants';
+import { Platform } from 'react-native';
+
+// const localhost = Platform.OS === "ios" ? "localhost:8080" : "10.0.2.2:8080";
+
+const ENV = {
+  dev: {
+    supabaseUrl: 'Your Supabase URL',
+    supabaseAnonKey: `Your Supabase Anon Key`
+  },
+  staging: {
+    supabaseUrl: 'Your Supabase URL',
+    supabaseAnonKey: `Your Supabase Anon Key`,
+  },
+  prod: {
+    supabaseUrl: 'Your Supabase URL',
+    supabaseAnonKey: `Your Supabase Anon Key`,
+  },
+};
+
+const getEnvVars = (env = Constants.manifest!.releaseChannel) => {
+  // What is __DEV__ ?
+  // This variable is set to true when react-native is running in Dev mode.
+  // __DEV__ is true when run locally, but false when published.
+  return ENV.dev;
+  // if (__DEV__) {
+  //   return ENV.dev;
+  // } else if (env === "staging") {
+  //   return ENV.staging;
+  // } else if (env === "prod") {
+  //   return ENV.prod;
+  // }
+};
+
+export default getEnvVars;
+
+```
+
 4. Run `yarn start` to begin the development server
 5. If you have XCode installed and an iPhone simulator, press `i` to open the simulator and run the app. Otherwise, install the Expo Go app on your phone and scan the QR code from the terminal with your camera to run the app on your phone in Expo Go. Make sure your phone and laptop are connected to the same Wi-Fi network to use the latter option.
 <br /><br />
