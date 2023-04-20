@@ -1,5 +1,5 @@
-# SlugFit
-SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-platform (iOS and Android) app built using React Native. The app is designed to cater to users with both some experience in fitness and to little to no experience.  It provides features for creating, saving, and editing workouts, as well as social interactions and workout analysis.
+# Slugfit
+`Slugfit` is a fitness app inspired by the block-based UI of Notion. It's a cross-platform (iOS and Android) app built using React Native. The app is designed to cater to users with both some experience in fitness and to little to no experience.  It provides features for creating, saving, and editing workouts, as well as social interactions and workout analysis.
 
 ## Features
  - Create and manage workouts with a block-based UI
@@ -9,7 +9,7 @@ SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-
  - Automatic workout sharing with friends
  - Workout analysis based on past performance
  - Integrated calendar to keep track of workouts
- - Built with TypeScript, Figma (UI), Supabase (PostgreSQL database), Expo (development),  - and Yarn (package manager)
+ - Built with `TypeScript`, `Figma` (UI), `Supabase` (PostgreSQL database), `Expo` (development), `Yarn` (package manager), and `StoryBook` + `Jest` (testing)
  <br /><br />
 
 # Environment Setup
@@ -17,6 +17,8 @@ SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-
  - https://nodejs.org/en/download/
  - Install Yarn:
  - https://classic.yarnpkg.com/lang/en/docs/install/
+ - Setup Supabase
+ - https://supabase.com/
  <br /><br />
 
 # App Installation
