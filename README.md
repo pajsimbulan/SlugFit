@@ -114,7 +114,7 @@ export default getEnvVars;
   Your browser does not support the video tag.
 </video>
 
-### if video doesn't load or work, try this link https://youtu.be/2OFljDC_c74
+### if video doesn't load or show above, try this link https://youtu.be/2OFljDC_c74
 
 # Contributing
 
