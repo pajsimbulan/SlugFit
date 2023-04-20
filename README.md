@@ -37,6 +37,12 @@ SlugFit is a fitness app inspired by the block-based UI of Notion. It's a cross-
  - `yarn test` to run unit tests
 <br /><br />
 
+# Figma Design 
+Available to view with this link - https://www.figma.com/file/4CGETWt2tr1R8Sk35EiPHF/Slugfit_copy?node-id=0%3A1&t=HcRYZOTF8WiNvHja-1
+
+<img src="./screenshots/figma_design.jpg" alt="Description of the screenshot" width="400px">
+<br /><br />
+
 # Screenshots
 <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
 
