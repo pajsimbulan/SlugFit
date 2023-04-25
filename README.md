@@ -92,6 +92,11 @@ Available to view with this link - https://www.figma.com/file/4CGETWt2tr1R8Sk35E
 <img src="./screenshots/figma_design.jpg" alt="Description of the screenshot" width="400px">
 <br /><br />
 
+# Architecture
+
+<img src="./screenshots/slugfit_architecture.jpg" alt="Description of the screenshot" width="400px">
+<br /><br />
+
 # Screenshots
 <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
 
